@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.navbar{
+    background: #fff;
+    padding: 0 !important;
+}
+nav{
+    position: sticky; 
+    margin-top: 1rem;
+    z-index: 10;
+    top: 0;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+.navbar-nav li, a{
+    color: #000 !important;
+    font-size: 20px;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars{
+    color: #000;
+    font-size: 30px !important;
+    margin-bottom: 1.2rem;
+    outline: none;
+}
+.navbar-brand img{
+   max-width: 10%;
+}
+.fa-facebook-square{
+    color: #000;
+    font-size: 20px;
+    margin: .2rem;
+    cursor: pointer;
+    padding-top: .8rem;
+}
+.fa-instagram{
+    color: #000;
+    font-size: 20px;
+    margin: .2rem;
+    cursor: pointer;
+    padding-top: .8rem;
+}
+.fa-twitter{
+    color: #000;
+    font-size: 20px;
+    margin: .2rem;
+    cursor: pointer;
+    padding-top: .8rem;
+}
+.btn-request{
+    color: #fff;
+    background-color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*---Tab section*/
+ h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin: 30px;
+}
+.card button{
+    text-align: center !important;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none !important;
+}
+
+#lattern-books ul li button{
+    background-color: black;
+    text-align: center;
+    color: #fff;
+    margin: 2rem;
+    font-weight: bold;
+    font-size: 23px;
+}
+h1{
+    font-size: 33px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
