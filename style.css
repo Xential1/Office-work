@@ -15,6 +15,10 @@ nav{
     z-index: 10;
     top: 0;
 }
+
+.navbar-nav li, a{
+    float: none !important;
+}
 .navbar-toggler{
     outline: none !important;
 }
@@ -29,37 +33,47 @@ nav{
     color: #000;
     font-size: 30px !important;
     margin-bottom: 1.2rem;
-    outline: none;
+    outline: none !important;
 }
 .navbar-brand img{
-   max-width: 10%;
+   max-width: 100px;
+}
+.top{
+    float: right;
 }
 .fa-facebook-square{
     color: #000;
     font-size: 20px;
     margin: .2rem;
+    margin-bottom: 15px;
     cursor: pointer;
-    padding-top: .8rem;
+    padding-top: .4rem;
 }
 .fa-instagram{
     color: #000;
     font-size: 20px;
     margin: .2rem;
+    margin-bottom: 15px;
     cursor: pointer;
-    padding-top: .8rem;
+    padding-top: .4rem;
 }
 .fa-twitter{
     color: #000;
     font-size: 20px;
     margin: .2rem;
+    margin-bottom: 15px;
     cursor: pointer;
-    padding-top: .8rem;
+    padding-top: .4rem;
 }
 .btn-request{
     color: #fff;
     background-color: black;
     font-weight: bold;
+    font-size: 20px;
     cursor: pointer;
+}
+.btn-request:hover{
+    background-color: mediumslateblue;
 }
 
 /*---Tab section*/
@@ -90,4 +104,9 @@ h1{
     font-weight: bold;
     color: #333;
     margin-bottom: 1.5rem;
+}
+.accordion-body p{
+    color: #333;
+    font-size: 20px;
+    font-weight: 500;
 }
