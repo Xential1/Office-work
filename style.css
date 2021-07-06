@@ -24,7 +24,7 @@ nav{
 }
 .navbar-nav li, a{
     color: #000 !important;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     float: right;
     text-align: left;
@@ -68,7 +68,7 @@ nav{
 .btn-request{
     color: #fff;
     background-color: black;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 20px;
     cursor: pointer;
 }
@@ -87,7 +87,7 @@ nav{
 .card button{
     text-align: center !important;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: none !important;
 }
 
@@ -109,4 +109,24 @@ h1{
     color: #333;
     font-size: 20px;
     font-weight: 500;
+}
+/*Footer section*/
+.footer{
+    background-color: #ccc;
+}
+.footer h1{
+    font-size: 22px;
+}
+.footer p a{
+    font-size: 18px;
+    text-decoration: none;
+    padding-left: 5rem;
+}
+.icons i{
+    font-size: 40px;
+    margin: 5px;
+    padding-left: .5rem;
+}
+.loctation{
+    margin: 10px 0;
 }
